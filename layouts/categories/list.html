@@ -9,7 +9,7 @@
       </a>
     </h1>
     {{ .Content }}
-    <div class="categories">
+    <div id="categories">
       <ul>
         {{- range .Paginator.Pages -}}
             {{- .Render "li" -}}
