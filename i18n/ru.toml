@@ -30,5 +30,11 @@ other = "автор"
 [posts]
 other = "статьи"
 
+[categories]
+other = "категории"
+
+[tags]
+other = "теги"
+
 [see_also]
 other = "Также смотреть"

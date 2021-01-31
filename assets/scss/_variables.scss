@@ -1,7 +1,73 @@
 // Fonts
-$text-font-family: Merriweather, Georgia, serif;
-$heading-font-family: Lato, Helvetica, sans-serif;
+// $text-font-family: Merriweather, Georgia, serif;
+// $heading-font-family: Lato, Helvetica, sans-serif;
+// $code-font-family: 'Source Code Pro', 'Lucida Console', monospace;
+//$text-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$text-font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+$heading-font-family: $text-font-family;
 $code-font-family: 'Source Code Pro', 'Lucida Console', monospace;
+
+$spacer-header-top: 4rem !default;
+$title-header-size: 3.6rem !default;
+$title-header-line-size: 3.8rem !default;
+$title-header-size-smaller: 3.2rem !default;
+$title-header-line-size-smaller: 3.6rem !default;
+// $spacer: 1rem !default;
+// $spacers: () !default;
+// // stylelint-disable-next-line scss/dollar-variable-default
+// $spacers: map-merge(
+//   (
+//     0: 0,
+//     1: ($spacer * .25),
+//     2: ($spacer * .5),
+//     3: $spacer,
+//     4: ($spacer * 1.5),
+//     5: ($spacer * 3)
+//   ),
+//   $spacers
+// );
+
+// $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+// $font-size-lg:                $font-size-base * 1.25 !default;
+// $font-size-sm:                $font-size-base * .875 !default;
+
+// $font-weight-lighter:         lighter !default;
+// $font-weight-light:           300 !default;
+// $font-weight-normal:          400 !default;
+// $font-weight-bold:            700 !default;
+// $font-weight-bolder:          bolder !default;
+
+// $font-weight-base:            $font-weight-normal !default;
+// $line-height-base:            1.5 !default;
+
+// $h1-font-size:                $font-size-base * 2.5 !default;
+// $h2-font-size:                $font-size-base * 2 !default;
+// $h3-font-size:                $font-size-base * 1.75 !default;
+// $h4-font-size:                $font-size-base * 1.5 !default;
+// $h5-font-size:                $font-size-base * 1.25 !default;
+// $h6-font-size:                $font-size-base !default;
+
+// $headings-margin-bottom:      $spacer / 2 !default;
+// $headings-font-family:        null !default;
+// $headings-font-weight:        500 !default;
+// $headings-line-height:        1.2 !default;
+// $headings-color:              null !default;
+
+// $display1-size:               6rem !default;
+// $display2-size:               5.5rem !default;
+// $display3-size:               4.5rem !default;
+// $display4-size:               3.5rem !default;
+
+// $display1-weight:             300 !default;
+// $display2-weight:             300 !default;
+// $display3-weight:             300 !default;
+// $display4-weight:             300 !default;
+// $display-line-height:         $headings-line-height !default;
+
+// $lead-font-size:              $font-size-base * 1.25 !default;
+// $lead-font-weight:            300 !default;
+
+// $small-font-size:             80% !default;
 
 // Colors
 $bg-color: #FAFAFA !default;
@@ -9,10 +75,15 @@ $fg-color: #212121 !default;
 $alt-bg-color: #E0E0E0 !default;
 $alt-fg-color: #000 !default;
 $link-color: #1565c0 !default;
+//$link-color: #5f8806 !default;
+$tag-cloud-background: #eeeeeea3 !default;
 
 // Colors dark
 $bg-color-dark: #212121 !default;
 $fg-color-dark: #dadada !default;
 $alt-bg-color-dark: #424242 !default;
 $alt-fg-color-dark: #dadada !default;
-$link-color-dark: #42a5f5 !default;
+$link-color-dark: #03A63C !default;
+$tag-cloud-background-dark: #fafafa1f !default;
+//$link-color-dark: #37BD80 !default;
+//$link-color-dark: #42a5f5 !default;

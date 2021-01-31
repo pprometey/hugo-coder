@@ -10,15 +10,15 @@
       }
     }
     header {
-      margin-top: 6.4rem;
+      margin-top:  $spacer-header-top;
       margin-bottom: 3.2rem;
       h1 {
-        font-size: 4.2rem;
-        line-height: 4.6rem;
+        font-size: $title-header-size;
+        line-height: $title-header-line-size quote($string: "");
         margin: 0;
         @media only screen and (max-width : 768px) {
-          font-size: 4.0rem;
-          line-height: 4.4rem;
+          font-size: $title-header-size-smaller;
+          line-height:  $title-header-line-size-smaller;
         }
       }
     }
@@ -166,6 +166,9 @@
     }
   }
 
+  .categories {
+    margin-left: 50px;
+  }
   .error {
     text-align: center;
     h1 {

@@ -54,7 +54,14 @@
     border: 2px solid $alt-fg-color-dark;
   }
 
+  #tags ul {
+    li {
+        background-color: $tag-cloud-background-dark;
+      }
+  }
+  
 }
+
 
 body.colorscheme-dark {
   @include base_dark()
