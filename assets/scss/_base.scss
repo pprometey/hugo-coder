@@ -238,10 +238,8 @@ img.emoji {
   vertical-align: -0.1em;
 }
 
-#categories ul {
-  li {
-    margin-left: 30px;
-  }
+li.categories  {
+  margin-left: 30px;
 }
 
 #tags ul {
@@ -259,7 +257,7 @@ img.emoji {
       background-color: $tag-cloud-background;
       border-radius: 5px;
       display: block;
-  
+
       a {
           height: 24px;
           font-size: 14px;
