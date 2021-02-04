@@ -3,15 +3,20 @@
 // $heading-font-family: Lato, Helvetica, sans-serif;
 // $code-font-family: 'Source Code Pro', 'Lucida Console', monospace;
 //$text-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$text-font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+//$text-font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+$text-font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 $heading-font-family: $text-font-family;
 $code-font-family: 'Source Code Pro', 'Lucida Console', monospace;
 
-$spacer-header-top: 4rem !default;
-$title-header-size: 3.6rem !default;
-$title-header-line-size: 3.8rem !default;
-$title-header-size-smaller: 3.2rem !default;
-$title-header-line-size-smaller: 3.6rem !default;
+
+$spacer-header-top: 3.5rem !default;
+$title-header-size: 3.4rem !default;
+$title-header-line-size: 3.6rem !default;
+$title-header-size-smaller: 3rem !default;
+$title-header-line-size-smaller: 3.4rem !default;
+
+$font-weight-bold: 600 !default;
+
 // $spacer: 1rem !default;
 // $spacers: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
